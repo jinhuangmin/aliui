@@ -628,7 +628,7 @@ $(function() {
     },
     {
       orderId: "078",
-      industry: [22],
+      industry: [26],
       color: 7,
       pcId: 5437,
       wxId: 5828,
@@ -748,7 +748,7 @@ $(function() {
     },
     {
       orderId: "093",
-      industry: [1],
+      industry: [25],
       color: 2,
       pcId: 6870,
       wxId: 6878,
@@ -916,7 +916,7 @@ $(function() {
     },
     {
       orderId: "114",
-      industry: [14],
+      industry: [4],
       color: 5,
       pcId: 7484,
       wxId: 7665,
@@ -1152,8 +1152,8 @@ $(function() {
         [22, "原材料"],
         [23, "能源化工"],
         // [24, "农产品"],
-        // [25, "成人保健"],
-        // [26, "矿物冶金"],
+        [25, "成人保健"],
+        [26, "矿物冶金"],
       ],
       // 3. color 色系分类 single
       color: [
@@ -1191,7 +1191,7 @@ $(function() {
             );
 
             form =
-              '<form class="module-form"><div class="tit">行业分类</div>' +
+              '<form class="module-form"><div class="tit">按行业选择</div>' +
               list.join("") +
               "</form>";
           } else if (key === "color") {
@@ -1221,7 +1221,7 @@ $(function() {
               return `<label style='${style}' class="filter filter-color ${(value === filter.color ? "selected" : "")}" ><input type="radio" name="color" value=${value} /></label>`;
             });
             form =
-              '<form class="module-form"><div class="tit" style="margin-top:30px">全部色系风格</div>' +
+              '<form class="module-form"><div class="tit" style="margin-top:30px">按颜色选择</div>' +
               `<label class="filter filter-color all ${("all" === filter.color ? "selected" : "")}" style="margin-bottom:0px;" >所有颜色<input type="radio" name="color" value="all" /></label>` +
               list.join("") +
               "</form>";
@@ -1288,27 +1288,24 @@ $(function() {
 
     // 事件绑定 点击按钮控制显影
     Array.from(document.querySelectorAll(".module-form")).forEach((form) => {
-      form.addEventListener("change", (e) => {
+      form.addEventListener("click", (e) => {
         const name = e.target.name; // string
         const value = e.target.value; // string
+
+        $(`input[name=${name}]`).removeClass("selected").parent().removeClass("selected");
+        $(`input[name=${name}][value=${value}]`).addClass("selected").parent().addClass("selected");
+
         if (name == "industry") {
-          var otherValue = $(".filter-color.selected").children("input").val(); // string
-          window.history.pushState({}, "", `./index.html?industryId=${value}&colorId=${otherValue}`);
+          filter = { industry: value, color: "all" }
+          window.history.pushState({}, "", `./index.html?industryId=${value}&colorId=all`);
+          $(`input[name=color]`).removeClass("selected").parent().removeClass("selected");
+          $(`input[name=color][value=all]`).addClass("selected").parent().addClass("selected");
         } else {
-          var otherValue = $(".filter-industry.selected").children("input").val(); // string
-          window.history.pushState({}, "", `./index.html?industryId=${otherValue}&colorId=${value}`);
+          filter = { industry: "all", color: value }
+          window.history.pushState({}, "", `./index.html?industryId=all&colorId=${value}`);
+          $(`input[name=industry]`).removeClass("selected").parent().removeClass("selected");
+          $(`input[name=industry][value=all]`).addClass("selected").parent().addClass("selected");
         }
-
-
-        $(`input[name=${name}]`)
-          .removeClass("selected")
-          .parent()
-          .removeClass("selected");
-        $(`input[name=${name}][value=${value}]`)
-          .addClass("selected")
-          .parent()
-          .addClass("selected");
-        filter[name] = value;
 
         // 显示指定行业
         Array.from($(`.module-default > li[data-industry][data-color]`)).forEach(
