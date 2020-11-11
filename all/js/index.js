@@ -917,7 +917,7 @@ $(function() {
     {
       orderId: "114",
       industry: [14],
-      color: 1,
+      color: 5,
       pcId: 7484,
       wxId: 7665,
       image: "https://img.alicdn.com//tfscom/i3/TB1NuBRxGL7gK0jSZFBXXXZZpXa",
@@ -925,7 +925,7 @@ $(function() {
     {
       orderId: "115",
       industry: [18],
-      color: 5,
+      color: 1,
       pcId: 7488,
       wxId: 7680,
       image: "https://img.alicdn.com//tfscom/i2/TB1at.7xbr1gK0jSZR0XXbP8XXa",
