@@ -1,9 +1,3 @@
-  
-  body,header,div,img,ul,li,a,h1,h2,p{margin:0;padding: 0;font: 12px/180% "PingFang SC","Lantinghei SC","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","sans-serif";
-}
-body{width:100%;overflow-x: hidden;overflow-y: auto;background: #fafafa;}
-ul,li{list-style: none;}
-
 
 /**********外贸PC转无线工具******************/
 .cf:after{

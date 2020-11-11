@@ -1,25 +1,4 @@
-body,header,div,img,ul,li,a,h1,h2,p{margin:0;padding: 0;font: 12px/180% "PingFang SC","Lantinghei SC","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","sans-serif";
-}
-body{width:100%;overflow-x: hidden;overflow-y: auto;background: #fafafa;}
-ul,li{list-style: none;}
-
-.hd{width: 100%;height: 80px; background: #404040;}
-.hd .hd-wrap{width: 1200px;height: 80px;margin:0 auto;overflow: hidden;}
-.hd .logo{display: block;float:left;}
-.hd .lists{float:right;}
-.hd .lists li{line-height: 80px; float: left;}
-.hd .lists li a{display: inline-block;padding: 0px 30px;color: #fff;font-size:16px;text-decoration: none;}
-.hd .lists li a.selected{background: #333;}
-.hd .lists:hover li a.selected{background:none;}
-.hd .lists li a:hover{background:#333;}
-.hd .lists li a.selected:hover{background:#333;}
-
-
-.bd{width: 1200px; margin:0px auto;}
-.bd .bd-qp{width: 1920px;margin-left:-360px;overflow: hidden;}
-.bd .bd-qp .banner{display: block;}
-
-/**********Ê×Ò³******************/
+/**********ï¿½ï¿½Ò³******************/
 .bTitle{margin-top: 70px;font-size: 36px;color:#444;text-align: center;}
 .sTitle{margin: 20px 0;font-size: 16px;color:#888;text-align: center;}
 
@@ -40,7 +19,7 @@ ul,li{list-style: none;}
 
 .intro{margin:30px 0;background:#dc4a4a;padding:50px 0;font-size: 16px;text-align: center;color:#fff;}
 
-/**********°¸Àý******************/
+/**********ï¿½ï¿½ï¿½ï¿½******************/
 .container{width:1200px;height:330px;color:#888;overflow: hidden;}
 .container h3{margin:70px 0 0;color:#444;font-size:35px;text-align: center;}
 .container .stit{margin-top:8px;font-size:16px;text-align: center;}
@@ -67,11 +46,11 @@ ul,li{list-style: none;}
 .case-demo li:hover{box-shadow:0 0 15px #999;}
 .case-demo li img{width:370px;display: block;position: absolute;}
 
-/**********¹ØÓÚÎÒÃÇ******************/
+/**********ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½******************/
 .about{padding:0 0 100px 300px;}
 .about p{text-align: left;}
 
-/**********·þÎñ******************/
+/**********ï¿½ï¿½ï¿½ï¿½******************/
 .fuwu {width: 1140px;margin:30px auto 20px;}
 .fuwu .tit{font-size: 30px;line-height: 68px;text-align:center;}
 .fuwu .f_tit{font-size: 18px;height: 50px;line-height: 50px;color: #fff;background: #fb2740;padding: 0px 25px;}
@@ -104,7 +83,7 @@ ul,li{list-style: none;}
 .ft .beian p{margin-top:20px;}
 
 
-/**********ÓÒ²àÐü¸¡******************/
+/**********ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½******************/
 .sidebar{width:48px;position: fixed;right:20px;bottom:300px;}
 .sidebar .tel{width:48px;background: #e41e2b;margin-bottom: 10px;position: relative;}
 .sidebar .tel .icon{width:24px;height:24px;background:url(./images/icon.png) no-repeat 0 12px;margin: 0 auto;padding:12px 0;}
@@ -124,8 +103,8 @@ ul,li{list-style: none;}
 
 
 
-/**********ÐÂÊ×Ò³******************/
-/* Ä£°å·þÎñËµÃ÷²¼¾Ö */
+/**********ï¿½ï¿½ï¿½ï¿½Ò³******************/
+/* Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .wrap {
 	width: 1300px;
 	margin: 0 auto;
@@ -138,31 +117,6 @@ ul,li{list-style: none;}
     overflow: hidden;
     background: url('https://img.alicdn.com/imgextra/i2/800803731/O1CN01oS1HAt1dQqKagjBIx_!!800803731.jpg') no-repeat center top;
 }
-.top .btn_box {
-    position:absolute;
-    top:55px;
-    left:330px;
-    display: flex;
-    justify-content: left;
-}
-.top .btn_box a {
-    padding:0 15px;
-    display: inline-block;
-    height: 34px;
-    line-height: 34px;
-    margin-right: 12px;
-    float: left;
-    font-size:15px;
-    color:#fff;
-    border:1px solid #fff;
-    border-radius: 3px;
-    text-decoration: none;
-}
-.top .btn_box a:hover {
-    background: #f15533;
-    border-color: #f15533;
-}
-
 
 .top .links {
     position: absolute;
@@ -186,7 +140,7 @@ ul,li{list-style: none;}
 
 .wrap .btit {
     font-size: 48px;
-    font-family: "Î¢ÈíÑÅºÚ";
+    font-family: "Î¢ï¿½ï¿½ï¿½Åºï¿½";
     font-weight: 700;
     color: #fff;
     height: 50px;
@@ -216,7 +170,7 @@ ul,li{list-style: none;}
 .wrap .txt {
     font-size: 14px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ";
+    font-family: "Î¢ï¿½ï¿½ï¿½Åºï¿½";
     height: 15px;
     line-height: 15px;
     text-align: center;

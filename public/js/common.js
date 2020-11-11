@@ -8,14 +8,14 @@ $(function() {
 									<div class="nnnna">
 											<ul id="ddmenu">
 													<li class="dflli home"><a  class="d-menu" href=""><em class='f15'>首页</em></a></li>
-													<li class="dflli submenu"><a target="_blank" href="" class="d-menu"><em class='f15'>全部模版</em></a></li>
-													<li class="dflli submenu"><a target="_blank" href="" class="d-menu"><em class='f15'>设置教程</em></a></li>
-													<li class="dflli submenu"><a target="_blank" class="d-menu"><em class='f15'>服务商信息</em></a></li>
-													<li class="dflli"><a  href="" class="d-menu f15">热区工具</a></li>
-													<li class="dflli"><a  href="" class="d-menu f15">链接转换工具</a></li>
+													<li class="dflli submenu"><a href="http://www.aliui.com/all/" class="d-menu"><em class='f15'>全部模版</em></a></li>
+													<li class="dflli submenu"><a href="http://www.aliui.com/guide/" class="d-menu"><em class='f15'>设置教程</em></a></li>
+													<li class="dflli submenu"><a target="_blank" href="https://fuwu.taobao.com/serv/shop_index.htm?isv_id=800803731" class="d-menu"><em class='f15'>服务商信息</em></a></li>
+													<li class="dflli"><a target="_blank" href="http://www.aliui.com/tool/" class="d-menu f15">热区工具</a></li>
+													<li class="dflli"><a  href="http://www.aliui.com/linktool/" class="d-menu f15">链接转换工具</a></li>
 											</ul>
 									</div>
-									<a  href="" class='contact f15'>
+									<a  href="http://www.aliui.com/contact/" class='contact f15'>
 											<svg class="iconfont-symbol " aria-hidden="true" style="font-size: 22px;position: relative;top: 3px;">
 													<use xlink:href="#iconicon-test"></use>
 											</svg>
