@@ -1080,7 +1080,7 @@ $(function() {
       color: 7,
       image: "https://img.alicdn.com//tfscom/i3/TB1m.b3TEY1gK0jSZFCXXcwqXXa",
       pcId: 9053,
-      wxId: ''
+      wxId: 9596
     },
     {
       orderId: "135",
@@ -1096,7 +1096,7 @@ $(function() {
       color: 1,
       image: "https://img.alicdn.com//tfscom/i1/TB1fs0Yhkcx_u4jSZFlXXXnUFXa",
       pcId: 9093,
-      wxId: ''
+      wxId: 9628
     },
     {
       orderId: "137",
@@ -1104,7 +1104,7 @@ $(function() {
       color: 4,
       image: "https://img.alicdn.com//tfscom/i1/TB1jwAvUWL7gK0jSZFBXXXZZpXa",
       pcId: 9153,
-      wxId: ''
+      wxId: 9630
     }
   ];
 
